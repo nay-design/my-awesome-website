@@ -1,0 +1,28 @@
+body {
+  font-family: "Montserrat";
+}
+.hero {
+  background-image: url("/images/download.png");
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+.fl-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fl-centerh {
+  justify-content: center;
+}
+.fl-centerv {
+  align-items: center;
+}
+h1 {
+  font-weight: 100;
+  font-size: 4em;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  width: 600px;
+  padding: 30px;
+}
